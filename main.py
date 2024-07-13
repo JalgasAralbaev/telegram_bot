@@ -7,9 +7,9 @@ from db.postgressql import Database
 
 db = Database()
 
-CHANNELS = ['-1002169340185']
+CHANNELS = ['channels_name']
 
-BOT_TOKEN = '7272633725:AAHUtjDv8U99-xGzLgRXm5ToU0rW8yPfyCc'
+BOT_TOKEN = 'bot_token'
 
 bot = Bot(token=BOT_TOKEN, parse_mode=types.ParseMode.HTML)
 dp = Dispatcher(bot)
