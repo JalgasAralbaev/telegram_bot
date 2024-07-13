@@ -7,9 +7,9 @@ from db.sqlite import Database
 
 db = Database(path_to_db="data/main.db")
 
-CHANNELS = ['-1002169340185']
+CHANNELS = ['channels_name']
 # PROXY_URL='http://proxy.server:3128/'
-BOT_TOKEN = '7272633725:AAHUtjDv8U99-xGzLgRXm5ToU0rW8yPfyCc'
+BOT_TOKEN = 'bot_token'
 
 bot = Bot(token=BOT_TOKEN, parse_mode=types.ParseMode.HTML)
 dp = Dispatcher(bot)
